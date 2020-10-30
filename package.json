@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/tikrbits/loopx-bsert"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prerelease": "cross-env CI=1 npm run build:full && npm run test && npm run lint",
     "release": "np --no-2fa",
@@ -58,8 +61,5 @@
     "dist",
     "src",
     "!*/__tests__"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }
