@@ -13,12 +13,10 @@ before_script:
   - node --version
   - npm --version
   - npm ci
-  - npm run build:ci
 
 test:
   script:
-    - npm ci
-    - npm run test:ci
+    - npm run test
     - npm run coverage
   coverage: /Statements\s+:\s(\d+.?\d+)%/
   artifacts:
