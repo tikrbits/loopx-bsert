@@ -1,6 +1,6 @@
 {
   "name": "@loopx/bsert",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Minimal assert with type checking.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
